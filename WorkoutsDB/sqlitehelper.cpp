@@ -11,7 +11,7 @@ SQLiteDatabase::SQLiteDatabase(std::string _path)
 		exit(0);
 	}
 	else{
-		fprintf(stderr, "Successfully opened database!");
+		fprintf(stderr, "Successfully opened database!\n");
 	}
 }
 

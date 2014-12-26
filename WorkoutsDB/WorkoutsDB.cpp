@@ -20,6 +20,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	while (more_workouts_)
 	{
+		system("cls");
 		workout = new Workout();
 		workout->GetData();
 		
